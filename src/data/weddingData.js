@@ -113,7 +113,7 @@ export const weddingData = {
       name: "Haldi Ceremony",
       tagline: "A Joyful Beginning Filled with Love and Blessings",
       date: "Thursday, 19th November 2026",
-      time: "08:00 AM onwards",
+      time: "4:00 PM onwards",
       venue: "Ashima Lodge, 1st Debirpara, Chamrail, Howrah",
       dressCode: "Yellow, Mustard & Traditional Attire",
       icon: "Sparkles",
