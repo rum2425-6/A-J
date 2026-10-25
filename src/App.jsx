@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
+import { Analytics } from '@vercel/analytics/react';
 import { weddingData } from './data/weddingData';
 import OpeningScreen from './components/OpeningScreen';
 import Navigation from './components/Navigation';
@@ -88,6 +89,9 @@ export default function App() {
         {/* 15. Royal Footer */}
         <Footer weddingData={weddingData} />
       </div>
+      
+      {/* Vercel Web Analytics */}
+      <Analytics />
     </div>
   );
 }
