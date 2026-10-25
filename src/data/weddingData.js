@@ -37,7 +37,11 @@ export const weddingData = {
     name: "KM Hotel & Banquet",
     city: "Howrah, West Bengal",
     address: "Bally, Durgapur, P.O. Samabaya Pally (N.H.-2), Delhi Road Howrah-711205 West Bengal.India",
-    mapUrl: "https://www.google.com/maps/search/?api=1&query=KM+Hotel+%26+Banquet%2C+Howrah%2C+West+Bengal",
+    coordinates: {
+      latitude: 22.6542976,
+      longitude: 88.3281795
+    },
+    mapUrl: "https://www.google.com/maps/search/?api=1&query=22.6542976%2C88.3281795",
     embedMapUrl: "https://www.google.com/maps?q=22.6542976,88.3281795&z=16&output=embed",
     nearestAirport: "Nata Subhas chandra Bose International Airport,Kolkata (28 km)",
     nearestRailway: "Dankuni City Railway Station (6 km)",

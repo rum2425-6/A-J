@@ -3,6 +3,9 @@ import { motion } from 'framer-motion';
 import { MapPin, Navigation as NavIcon, Plane, Train, Phone, ExternalLink, Sparkles, Building2 } from 'lucide-react';
 
 export default function Location({ weddingData }) {
+  const { latitude, longitude } = weddingData.venue.coordinates;
+  const mapCoordinates = `${latitude},${longitude}`;
+
   return (
     <section id="location" className="relative py-24 sm:py-32 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto overflow-hidden">
       {/* Background Ambience */}
@@ -41,7 +44,7 @@ export default function Location({ weddingData }) {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="text-base sm:text-lg font-cormorant italic text-[#e6d8c3]"
         >
-          Set on the banks of Lake Pichola, offering breathtaking views of royal palaces and heritage Mewari courtyards.
+          A beautiful celebration destination in {weddingData.venue.city}, bringing family and friends together for a memorable occasion.
         </motion.p>
       </div>
 
@@ -134,7 +137,7 @@ export default function Location({ weddingData }) {
             </a>
 
             <a
-              href={`https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(weddingData.venue.name + ' ' + weddingData.venue.address)}`}
+              href={`https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(mapCoordinates)}`}
               target="_blank"
               rel="noopener noreferrer"
               className="flex-1 btn-gold-outline py-3 rounded-full text-xs font-cinzel tracking-wider font-semibold flex items-center justify-center gap-2"
@@ -169,7 +172,7 @@ export default function Location({ weddingData }) {
           <div className="absolute top-4 right-4 bg-[#0a0809]/90 border border-[#d4af37]/40 px-3.5 py-1.5 rounded-full backdrop-blur-md flex items-center gap-2">
             <div className="w-2 h-2 rounded-full bg-emerald-400 animate-ping" />
             <span className="text-[11px] font-cinzel tracking-wider text-[#f7f2ea]">
-              Lake Pichola, Udaipur
+              {weddingData.venue.city}
             </span>
           </div>
         </motion.div>
