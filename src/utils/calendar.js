@@ -38,7 +38,7 @@ export function downloadIcsFile(weddingData) {
   const icsContent = [
     "BEGIN:VCALENDAR",
     "VERSION:2.0",
-    "PRODID:-//Aarav and Meera Wedding//EN",
+    "PRODID:-//Amit and Jyoti Wedding//EN",
     "CALSCALE:GREGORIAN",
     "METHOD:PUBLISH",
     "BEGIN:VEVENT",

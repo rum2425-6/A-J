@@ -172,14 +172,14 @@ export const weddingData = {
       id: 1,
       url: "/Jyoti.jpg",
       title: "The Regal Bride",
-      caption: "Meera adorned in hand-embroidered royal zardozi silk.",
+      caption: "Jyoti adorned in hand-embroidered royal zardozi silk.",
       category: "Bride"
     },
     {
       id: 2,
       url: "/AmitF.jpg",
       title: "Groom in Splendor",
-      caption: "Aarav in tailored raw silk sherwani with emerald accents.",
+      caption: "Amit in tailored raw silk sherwani with emerald accents.",
       category: "Groom"
     },
     {

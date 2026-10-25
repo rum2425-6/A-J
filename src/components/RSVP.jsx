@@ -144,7 +144,7 @@ export default function RSVP({ weddingData }) {
               </h3>
 
               <p className="text-base sm:text-xl font-cormorant italic text-[#f7f2ea] max-w-lg mx-auto">
-                “Thank you for celebrating this special moment with us ❤️ Your blessings mean the world to Aarav & Meera.”
+                “Thank you for celebrating this special moment with us ❤️ Your blessings mean the world to Amit & Jyoti.”
               </p>
 
               <div className="pt-4">
