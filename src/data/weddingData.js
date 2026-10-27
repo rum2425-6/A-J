@@ -7,9 +7,9 @@ export const weddingData = {
   // Couple Information
   bride: {
     name: "Jyoti",
-    fullName: "Jyoti Sahu",
-    parents: "Daughter of Mr. Ramesh Sahu & Mrs. Rakha Davi",
-    instagram: "@jyoti_sahu",
+    fullName: "Jyoti Shaw",
+    parents: "Daughter of Mr. Ramesh Shaw & Mrs. Rakha Davi",
+    instagram: "@jyoti_shaw",
     about: "An architect with a passion for classical music and stargazing, whose radiant smile brightens every room.",
     image: "/Jyoti.jpg"
   },
@@ -25,7 +25,7 @@ export const weddingData = {
   // Monogram & Tagline
   monogram: "A & J",
   tagline: "Together with their families, invite you to celebrate love, laughter, and happily ever after.",
-  hashtag: "#AmitGuptaAndJyotiSahu",
+  hashtag: "#AmitGuptaAndJyotiShaw",
 
   // Wedding Date & Timings
   weddingDate: "2026-11-21T18:00:00+05:30", // ISO string for live countdown
@@ -65,7 +65,7 @@ export const weddingData = {
   invitationMessage: {
     preTitle: "With the Blessings of Our Families",
     title: "Together with Our Families, We Invite You",
-    quote: "With great joy and happiness, we invite you to join us as Amit Gupta and Jyoti Sahu begin their beautiful journey of marriage. Your presence will make this special occasion even more memorable.",
+    quote: "With great joy and happiness, we invite you to join us as Amit Gupta and Jyoti Shaw begin their beautiful journey of marriage. Your presence will make this special occasion even more memorable.",
     subText: "Please join us to celebrate our wedding and bless us with your love and good wishes."
   },
 
@@ -97,7 +97,7 @@ export const weddingData = {
     {
       year: "Forever Begins",
       title: "A Beautiful New Chapter",
-      description: "With the love and blessings of their families, Amit Gupta and Jyoti Sahu are ready to begin a new chapter of life together, promising to stand by each other through every moment.",
+      description: "With the love and blessings of their families, Amit Gupta and Jyoti Shaw are ready to begin a new chapter of life together, promising to stand by each other through every moment.",
       image: "/AM_3.jpg"
     }
   ],
@@ -228,8 +228,8 @@ export const weddingData = {
 
   // Share Configuration
   share: {
-    title: "Amit Gupta & Jyoti Sahu's Wedding Invitation",
-    text: "✨ You're cordially invited to celebrate the wedding of Amit Gupta & Jyoti Sahu on 21st November 2026 at KM Hotel & Banquet, Howrah, West Bengal.",
+    title: "Amit Gupta & Jyoti Shaw's Wedding Invitation",
+    text: "✨ You're cordially invited to celebrate the wedding of Amit Gupta & Jyoti Shaw on 21st November 2026 at KM Hotel & Banquet, Howrah, West Bengal.",
     url: typeof window !== 'undefined' ? window.location.href : "https://amit-jyoti-wedding.com"
   },
 
@@ -249,7 +249,7 @@ export const weddingData = {
     },
     {
       q: "Whom do I contact for travel and venue queries?",
-      a: "Please contact the Concierge / RSVP Helpdesk at Tel. (+91)-9xcxxxxxxx for assistance with venue, travel, and RSVP-related questions."
+      a: "Please contact the Concierge / RSVP Helpdesk at Tel. (+91)-6392197002 for assistance with venue, travel, and RSVP-related questions."
     }
   ],
 
